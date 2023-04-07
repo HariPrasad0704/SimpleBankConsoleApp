@@ -99,7 +99,7 @@ class BankingConsole {
     public void depositAmount(int accountNumber, double amount) {
         BankAccount account = this.accounts.get(accountNumber);
         if (account == null) {
-           System.out.println("Account not found");
+           System.out.println("Account not found");//if account does not exist
             return;
         }
 
